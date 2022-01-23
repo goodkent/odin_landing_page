@@ -13,6 +13,7 @@ body {
   overflow: scroll;
 }
 
+
 ul {
     list-style-type: none;
     display: flex;
@@ -26,6 +27,13 @@ ul {
     background: #1F2937;
     display: flex;
     justify-content: space-between;
+    text-shadow: 2px 2px 4px #000000;
+    align-items: center;
+    
+  }
+
+  .menu a {
+    text-decoration: none;
   }
   
   .hero {
@@ -35,6 +43,7 @@ ul {
     align-items: center;
     gap: 16px;
     padding: 25px;
+    
   }
 
   .hero-left {
@@ -44,17 +53,30 @@ ul {
   }
   .hero-right {
     display:flex;
-    
-
   }
   .hero-main {
     font-size:48px;
     font-weight:bolder;
+    text-shadow: 2px 2px 4px #000000;
   }
   .hero-secondary {
     font-size:18px;
     color: #E5E7EB;
     font-weight:lighter;
+  }
+
+  .button {
+    
+  }
+  .button a{
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding:10px 20px 10px 20px;
+    font-size:18px;
+    font-weight:normal;
+    text-decoration: none;
+    box-shadow: 2px 2px 4px #000000;
+    text-shadow: 2px 2px 4px #000000;
   }
 
   .information {
@@ -88,11 +110,10 @@ ul {
     width:150px;
   }
 
-  .info-box-image {
-    
-    border-color: #3882F6;
-    border-width: 2px;
-  }
+  .info-box-image img {
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+   }
 
   .info-box-caption {
     font-size:16px;
@@ -112,15 +133,17 @@ ul {
     font-size:48px;
     color: #F9FAF8;
     Font-weight: bold;
+    box-shadow: 0px 4px 2px -2px gray;
   }
 
-
+  
 
 
 
   .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+    
   }
 
   .footer {
@@ -145,6 +168,7 @@ ul {
     font-weight:lighter;
     font-style:italic;
     padding:50px;
+    
   }
 
   .quoted {
