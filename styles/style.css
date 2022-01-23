@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  color: #FFFFFF;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0px;
+  overflow: scroll;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+  }
+  
+  .menu {
+    padding: 16px;
+    background: #1F2937;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .hero {
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    padding: 25px;
+  }
+
+  .hero-left {
+    display:flex;
+    flex-direction: column;
+    width:350px;
+  }
+  .hero-right {
+    display:flex;
+    
+
+  }
+  .hero-main {
+    font-size:48px;
+    font-weight:bolder;
+  }
+  .hero-secondary {
+    font-size:18px;
+    color: #E5E7EB;
+    font-weight:lighter;
+  }
+
+  .information {
+   display:flex;
+   flex:1;
+   flex-direction: column;
+  }
+
+  .information-header {
+    font-size:36px;
+    font-weight:bolder;
+    color: #1F2937;
+    text-align: center;
+    padding:40px;
+  }
+
+  .information-content {
+    flex-direction: row;
+    display:flex;
+    gap:16px;
+    justify-content:center;
+    align-items: center;
+    padding-bottom:50px;
+  }
+  .info-box {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    width:150px;
+  }
+
+  .info-box-image {
+    
+    border-color: #3882F6;
+    border-width: 2px;
+  }
+
+  .info-box-caption {
+    font-size:16px;
+    font-weight:lighter;
+    color: #1F2937;
+    text-align: center;
+    
+  }
+
+  .header {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #1F2937;
+    font-size:48px;
+    color: #F9FAF8;
+    Font-weight: bold;
+  }
+
+
+
+
+
+  .header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+  }
+
+  .footer {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    background: #eee;
+    color:#1F2937;
+    font-size: 16px;
+  }
+
+  .quote
+  {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background:#E5E7EB;
+    font-size:36px;
+    color:#1F2937;
+    font-weight:lighter;
+    font-style:italic;
+    padding:50px;
+  }
+
+  .quoted {
+    font-size:18px;
+    color:#1F2937;
+
+  }
+
